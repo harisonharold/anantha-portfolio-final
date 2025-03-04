@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  background: #5A1544;
+  color: #fbfffe;
+  font-family: sans-serif;
+}
+
+.container {
+  max-inline-size: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-self: center;
+  height: 100vh;
+}
+
+
+h1 ,.title {
+  margin: 0;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline-end: 20px;
+  width: 250px;
+  overflow: unset;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:visited{
+  color: inherit;
+}
+
+a:hover, a:focus, a:focus-visible, a:focus-within {
+  color: #51A0D5;
+}
+
+.description {
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.job-details:hover {
+  background: rgba(255, 255, 255, 0.008);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 16px;
+}
